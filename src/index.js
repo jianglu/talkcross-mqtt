@@ -32,6 +32,9 @@ var ascoltatore = {
 
 var settings = {
   port: 1883,
+  logger: {
+    level: 20
+  },
   backend: ascoltatore
 };
 
